@@ -1,0 +1,16 @@
+/* https://github.com/dompdf/dompdf/issues/1107 */
+tbody:before, tbody:after { display: none; }
+@page {margin: 5px;}
+body {margin: 0px;}
+table {width: 100%;}
+p {margin: 15px auto;}
+p, th, td {
+    padding-left:5px;
+    padding-right: 5px;
+    padding-top:5px;
+    padding-bottom:5px;
+  }
+hr { width: 100%;}
+.section-totals td { padding-top: 10px;}
+.pagebreak_before { page-break-before: always; }
+.pagebreak_after { page-break-after: always; }

@@ -1,0 +1,106 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+/** global wordpress theme overwrites **/
+.page-container {
+  background-color: #FFFFFF !important;
+}
+/** section-fisifhome **/
+.section-fisifhome-summary {
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.section-fisifhome-summary H4 {
+    border-bottom: 1px solid #000;
+    padding: 5px;
+}
+.section-fisifhome-summary P {
+    padding: 10px;
+}
+.section-fisifhome-summary-agents {
+    margin: 0 auto;
+    background-color: #EFEFEF;
+}
+.section-fisifhome-summary-agents H4 {
+    border-bottom: 1px solid #000;
+    padding: 5px;
+}
+.section-fisifhome-summary-agents P {
+    padding: 10px;
+}
+.section-fisifhome-left {
+    width: 48%;
+    float: left;
+    padding: 0 4px;
+}
+.section-fisifhome-right {
+    width: 48%;
+    float: left;
+    padding: 0 4px;
+}
+.section-fisif-report {
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+.section-fisif-report hr {
+    margin: 0;
+    padding: 0;
+}
+.section-fisif-report P {
+    text-align: center;
+}
+.section-fisif-report TABLE {
+    width: 100%;
+    margin: 10px 0;
+    border: none;
+}
+.section-fisif-report TH, .section-fisif-report TD {
+    border: none;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.section-fisif-report TH {
+    font-size: 11px;
+    line-height: 11px;
+}
+/*
+.section-fisif-report TR, .section-fisif-report TH, .section-fisif-report TD, .section-fisif-report P {
+    font-size: 11px !important;
+}
+*/
+.report-header {
+    margin: 10px auto;
+    min-height: 80px;
+}
+.report-header TD {
+    width: 40%;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.report-header-left {
+}
+.report-header-right {
+}
+.section-fisif-report .report-title {
+    text-align: left;
+    padding-left: 20px;
+}
+.section-fisif-report .left {
+    text-align: left;
+    padding-left: 20px;
+    float: none;
+}
+.section-fisif-report .report-date {
+    font-style: italic;
+    text-align: left;
+    padding: 0;
+    padding-left: 20px;
+    margin: 0;
+}
+.print-options {
+  padding: 10px;
+}
